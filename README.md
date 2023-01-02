@@ -1,6 +1,8 @@
 # logiops
 
-This is an unofficial driver for Logitech mice and keyboard.
+Logiops is an unofficial userspace driver for Logitech mice and keyboard. 
+`ckiee/logiops` is a (possibly temporary) fork of the original [`PixlOne/logiops`](https://github.com/PixlOne/logiops) 
+repository which has been (possibly temporarily) [abandoned](https://github.com/PixlOne/logiops/issues/348).
 
 This is currently only compatible with HID++ \>2.0 devices.
 
@@ -17,7 +19,7 @@ Logiops is currently available in packaged form for the following distributions:
 All packages install logiops with the logid service in a disabled state so be sure to enable it with `sudo systemctl enable --now logid` after you have configured it.
 
 ## Configuration
-[Refer to the wiki for details.](https://github.com/PixlOne/logiops/wiki/Configuration)
+[Refer to the wiki for details](https://github.com/ckiee/logiops/wiki/Configuration).
 
 You may also refer to [logid.example.cfg](./logid.example.cfg) for an example.
 
@@ -44,7 +46,7 @@ This project requires a C++14 compiler, `cmake`, `libevdev`, `libudev`, and `lib
 To build this project, run:
 
 ```bash
-git clone https://github.com/PixlOne/logiops.git
+git clone https://github.com/ckiee/logiops.git
 cd logiops
 mkdir build
 cd build
