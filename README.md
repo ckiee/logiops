@@ -21,9 +21,9 @@ All packages install logiops with the logid service in a disabled state so be su
 ## Configuration
 [Refer to the wiki for details](https://github.com/ckiee/logiops/wiki/Configuration).
 
-You may also refer to [logid.example.cfg](./logid.example.cfg) for an example.
+You may also refer to the [`logid.example.cfg`](./logid.example.cfg) file for an example.
 
-Default location for the configuration file is /etc/logid.cfg, but another can be specified using the `-c` flag.
+Default location for the configuration file is `/etc/logid.cfg`, but another can be specified using the `-c` flag.
 
 ## Build Dependencies
 
