@@ -29,17 +29,16 @@ Default location for the configuration file is `/etc/logid.cfg`, but another can
 
 This project requires a C++14 compiler, `cmake`, `libevdev`, `libudev`, and `libconfig`. For popular distributions, I've included commands below.
 
-**Arch Linux:** `sudo pacman -S cmake libevdev libconfig pkgconf`
+| Distribution   | Command                                                                                                          |
+|---------------:|:-----------------------------------------------------------------------------------------------------------------|
+| Arch Linux    | `sudo pacman -S cmake libevdev libconfig pkgconf`                                                                |
+| Debian/Ubuntu | `sudo apt install cmake libevdev-dev libudev-dev libconfig++-dev build-essential`                                |
+| Fedora        | `sudo dnf install cmake libevdev-devel systemd-devel libconfig-devel gcc-c++`                                    |
+| Gentoo Linux  | `sudo emerge dev-libs/libconfig dev-libs/libevdev dev-util/cmake virtual/libudev`                                |
+| Solus         | `sudo eopkg install libevdev-devel libconfig-devel libgudev-devel`                                               |
+| openSUSE      | `sudo zypper install cmake libevdev-devel systemd-devel libconfig-devel gcc-c++ libconfig++-devel libudev-devel` |
+| NixOS         | `nix-shell '<nixpkgs>' -A logiops`                                                                               |
 
-**Debian/Ubuntu:** `sudo apt install cmake libevdev-dev libudev-dev libconfig++-dev build-essential`
-
-**Fedora:** `sudo dnf install cmake libevdev-devel systemd-devel libconfig-devel gcc-c++`
-
-**Gentoo Linux:** `sudo emerge dev-libs/libconfig dev-libs/libevdev dev-util/cmake virtual/libudev`
-
-**Solus:** `sudo eopkg install libevdev-devel libconfig-devel libgudev-devel`
-
-**openSUSE:** `sudo zypper install cmake libevdev-devel systemd-devel libconfig-devel gcc-c++ libconfig++-devel libudev-devel`
 
 ## Building
 
