@@ -1,0 +1,55 @@
+* PRs
+- [X] 346		ckiee		logid: Fail on invalid Configurations
+- [X] 334		christiffer		Update TESTED.MD with MX Master 3s
+- [X] 330		listout		Some fixes for non glibc systems
+  + https://github.com/PixlOne/logiops/pull/330#issuecomment-1368972009
+- [X] 327		dalenicholson		Logi m650 l
+  + messy; possibly handle eventually though..
+- [X] 319		Rlesjak		Added additional dependency for ubuntu
+- [X] 291		jonringer		Add nix build steps
+- [X] 290		jonringer		Allow user to specify systemd install dir
+- [X] 289		felagund		Add command to clone the repository
+- [X] 243		S-trace		Add Action type: "Axis" support for mapping buttons press to axis changes
+  + abandoned by author
+- [X] 240		reeseovine		Update tested device list
+  + ~| MX Anywhere 2  |     Yes     |     `Wireless Mouse MX Anywhere 2`     |~
+- [X] 228		ReillyBrogan		Add Installation section to readme
+  + Grammar: "with --now to also start the daemon immediately"
+- [X] 224		ghost		add install.sh script
+  + Distro specific etc: noope
+- [X] 154		ninjaz5736		Adding MX Anywhere 2 to TESTED.md
+  + dup
+- [X] 151		bukowski12		Update README.md
+  + dup
+- [X] 309		TSonono		Added MX Master 3 Mac to TESTED.md
+  + ~|  MX Master 3 Mac |     Yes     |          `MX Master 3 for Mac`         |~
+    merge conflict if done manually
+- [X] 306		josedr120		added G502 HERO Gaming Mouse, to support list
+  + ~| G502 HERO Gaming |     Yes     |        `G502 HERO Gaming Mouse`        |~
+- [X] 304		fftux		Adding MX Master 3 for Business to Tested List
+  + ~|  MX Master 3 for Business | Yes | `MX Master 3 for Business` |~
+- [X] 259		aprotyas		Adding Logitech M510 to the list of tested devices
+  + ~|      M510      |     Yes     |         `Wireless Mouse M510`          |~
+- [ ] 324		wooparadog		Set 0 buffer for stdout
+  + See if we can do line buffering or fflush in the log functions.
+- [ ] 311		winksaville		Add Initial setup instructions to README.md
+  + Refine english grammar a bit.
+- [ ] 230		ocroquette		Improve README.md
+  + Good things but ->"How to" change is worse grammar etc
+  + Does cmake have uninstall? That'd be nice.
+- [ ] 197		celowsky		Automates uninstallation method
+  + I really hope cmake can do this..
+- [ ] 124		vu-dinh-hung		Add one click installer shell script for easy install.
+  + as Pixl says: weird but maybe good
+* Big PRs
+- [ ] 343		chomosuke		Prevent false positive in secondary axis for gestures
+- [ ] 161		abraha2d		Scroll support
+- [ ] 160		abraha2d		App switching support
+- [ ] 112		tgcGlaDius		Multiple button profiles
+- [ ] 44		PixlOne		Implement IPC in logid
+- [ ] 261		leios76		support smartshift(0x2111) on mx anywhere3
+* Fork
+- [X] Sort tested device list
+- [ ] Update references to PixlOne repo
+- [ ] CI
+- [ ] Issue&PR templates
