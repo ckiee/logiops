@@ -2,7 +2,7 @@
 
 Logiops is an unofficial userspace driver for Logitech mice and keyboard. 
 `ckiee/logiops` is a **temporary** fork of the original [`PixlOne/logiops`](https://github.com/PixlOne/logiops) 
-repository which was abandoned from a year. I (ckie) emailed PixlOne and they're just on a (long) break, so this
+repository which was abandoned for about a year. I (ckie) emailed PixlOne and they're just on a (long) break, so this
 repository shouldn't last long in [this state](https://github.com/PixlOne/logiops/issues/348).
 
 This is currently only compatible with HID++ \>2.0 devices.
